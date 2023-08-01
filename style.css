@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.Box {
+    background-color: hsl(0, 0%, 100%);
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px; /* Set a maximum width for the box */
+    width: 90%; /* Responsive width to take up 90% of the available width */
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    background-size: cover;
+    width: 100%;
+    max-width: 200px; /* Set a maximum width for the image */
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+/* Media Query for Tablets and Large Screens */
+@media screen and (min-width: 768px) {
+    .Box {
+        width: 60%; /* Adjust the width for larger screens */
+    }
+
+    img {
+        max-width: 300px; /* Adjust the maximum width for larger screens */
+    }
+}
+
+/* Media Query for Desktops and Larger Screens */
+@media screen and (min-width: 1200px) {
+    .Box {
+        width: 40%; /* Adjust the width for larger desktop screens */
+    }
+
+    img {
+        max-width: 400px; /* Adjust the maximum width for larger desktop screens */
+    }
+}
